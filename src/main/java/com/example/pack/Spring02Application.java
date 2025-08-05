@@ -11,7 +11,7 @@ public class Spring02Application {
 	
 	@GetMapping("/")
 	public String tiger() {
-		return "Spring02:1531";
+		return "Spring02:1555";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(Spring02Application.class, args);
