@@ -21,7 +21,7 @@ pipeline {
             }
         }
         
-        stage('3. Docker Build') {
+        stage('3. Docker Build(이미지 만드는 것)') {
             steps {
                 sh 'docker build -t ex02-app:latest .'
             }
