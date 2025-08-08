@@ -7,7 +7,7 @@ pipeline {
     environment {
         APP_NAME = 'ex02-app'
         DOCKER_TAG = 'latest'
-        IMAGE_NAME = "belokana/${APP_NAME}:${DOCKER_TAG}"
+        IMAGE_NAME = "hongs0710/${APP_NAME}:${DOCKER_TAG}"
         TARGET_HOST = '192.168.56.107'
         TARGET_USER = 'vagrant'
         PORT = '8081'
