@@ -14,7 +14,7 @@ pipeline {
                 sh 'mvn clean package'
             }
         }
-        stage('2. Check Docker') {
+        stage('2. Check Docker2') {
             steps {
                 sh 'docker version'
             }
