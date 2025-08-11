@@ -4,7 +4,6 @@ pipeline {
     tools {
         maven 'my-maven'  // 젠킨스에서 설치한 이름
     }
-
     stages {
         stage('0. 자동화 확인1') { steps { echo '스테이지 출발' } }
         
